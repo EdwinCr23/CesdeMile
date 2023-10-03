@@ -87,7 +87,59 @@
     padding: auto;
 }
 
+.navBar a img{
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(750%, 90%);
+}
+
+.navBar h1{
+    top: 50%;
+    left: 50%;
+    transform: translate(500%, 2%);
+}
+
 .navBar img{
     width: 150px;
     align-items: end;
+    top: 50%;
+    left: 50%;
+    transform: translate(450%, 2%);
+}
+
+.menu{
+    display: block;
+}
+
+.menu a{
+    width: 40%;
+    height: 30px;
+    padding-top: 15px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    display:grid;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.admon{
+    background-color: green;
+}
+
+.rh{
+    background-color: rgb(148, 100, 4);
+}
+
+.contabilidad{
+    background-color: rgb(119, 54, 169);
+}
+
+.sistemas{
+    background-color: rgb(92, 129, 210);
+}
+
+.sst{
+    background-color: rgb(216, 213, 43);
 }
