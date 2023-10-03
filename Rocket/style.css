@@ -4,9 +4,18 @@
 }
 
 .loggin{
-    
-    height: 900px;
-    width: 600px;
+    border-radius: 12px;
+    box-shadow: 2px 7px 14px #000;
+    height: 580px;
+    width: 450px;
+}
+
+.frase{
+    padding-top: 5px;
+}
+
+.logo-form img{
+    width: 150px;
 }
 
 .usu-log .pass-log{
@@ -16,6 +25,7 @@
 
 .Input{
     border-radius: 2px;
+    
 }
 
 .Input:active{
@@ -26,6 +36,7 @@
 }
 
 #showPasswordButton{
+    margin-top: 15px;
     background: none;
     border-radius: 2rem;
     width: 20%;
@@ -38,4 +49,45 @@
 .hide-icon {
     display: none;
 }
+
+.boton-login{
+    background-color: #54351a;
+    font-family: 'Archer-Book-Pro';
+    text-transform: uppercase;
+    color: white;
+    margin-top: 15px;
+    padding: 15px 25px 10px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    align-items: center;
+    cursor: pointer;
+}
+
+.boton-login:hover{
+    background-color: #c59f61;
+    color: #54351a;
+    font-family: 'Archer-Book-Pro';
+    border: none;
+    box-shadow: 3px 6px 15px #000;
+}
   
+.forget-pass{
+    font-family: 'Archer-Book-Pro';
+    font-size: 20;
+    color: #000;
+    margin-top: 2px;
+    text-decoration:none ;
+    border: none;
+}
+
+.navBar{
+    display: flex;
+    width: 80%;
+    padding: auto;
+}
+
+.navBar img{
+    width: 150px;
+    align-items: end;
+}
