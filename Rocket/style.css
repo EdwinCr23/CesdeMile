@@ -1,0 +1,41 @@
+*{
+    background: #f3dccb;
+    font-family: 'Roboto', sans-serif;
+}
+
+.loggin{
+    
+    height: 900px;
+    width: 600px;
+}
+
+.usu-log .pass-log{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.Input{
+    border-radius: 2px;
+}
+
+.Input:active{
+    border: 2px solid #c59f61;
+    background: #54351a;
+    color: #fff;
+    box-shadow: 3px 6px 15px #000;
+}
+
+#showPasswordButton{
+    background: none;
+    border-radius: 2rem;
+    width: 20%;
+}
+  
+.show-icon {
+    display: inline-block;
+}
+  
+.hide-icon {
+    display: none;
+}
+  
