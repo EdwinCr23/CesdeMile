@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar</title>
+</head>
+<body>
+    <center> 
+    <div class="frase">
+        <h1>Hola</h1>
+        <h5>Por favor ingresa tus credenciales</h5>
+    </div>
+    <div class="form-login">
+        <!--<marquee behavior="scroll" direction="left"><b>NUESTRA TRADICIÓN ES HORNEAR FELICIDAD</b></marquee>-->
+        <div class="logo-form">
+            <img src="./Images/GORRO.png" alt="Rocket" class="rok-logo">
+        </div>
+        <form name="login">
+                      
+            <p class="usu-log">Usuario</p>
+            <input name="usuario" type="text" class="Input" value="" placeholder="Usuario" required>
+            <p class="pass-log">Contraseña</p>
+            <input name="password" id="password" type="password" class="Input" value="" placeholder="Contraseña" required /><br>
+            <button type="button" id="showPasswordButton">
+                <span id="showIcon" class="show-icon">👁️👁️</span>
+                <span id="hideIcon" class="hide-icon">🙈</span>
+              </button><br>
+            <input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton-login"/> 
+            <input type="reset" name="Borrar" id="Borrar" value="Borrar" class="boton-login" /><br><br>
+            <a href="#" class="forget-pass">¿Olvidaste tu contraseña?</a> 
+        </form>
+    </div>
+    </center>
+    <script src="Login.js"></script>
+</body>
+</html>
